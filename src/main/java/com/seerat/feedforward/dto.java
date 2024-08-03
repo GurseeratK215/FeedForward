@@ -1,16 +1,21 @@
-package com.seerat.feedforward.dto;
+// NOT REQUIRED
 
-import java.util.List;
 
-public class dto {
-    private List<Restaurant> data;
 
-    // Getters and setters
+// package com.seerat.feedforward.dto;
 
-    public static class Restaurant {
-        private String restaurant_name;
-        private String address;
+// import java.util.List;
 
-        // Getters and setters
-    }
-}
+// public class Dto {
+//     private List<Restaurant> data;
+
+//     // Getters and setters
+//     @Getter
+//     @Setter
+//     public static class Restaurant {
+//         private String restaurant_name;
+//         private String address;
+
+//         // Getters and setters
+//     }
+// }

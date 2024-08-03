@@ -8,10 +8,10 @@ public class FeedForwardApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(FeedForwardApplication.class, args);
-        try {
+         try {
             System.out.print("hi");
         } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+           throw new RuntimeException(e);
+         }
     }
 }

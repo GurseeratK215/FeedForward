@@ -6,6 +6,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class FeedForwardApplicationTests {
 
-
+    System.out.print("Hello");
 
 }

@@ -1,44 +1,50 @@
-package com.seerat.feedforward;
+// NOT REQUIRED
 
-import java.util.List;
 
-public class Repository {
-    @org.springframework.stereotype.Repository
-    public  interface VolunteerRepository extends MongoRepository<Model.Volunteer, Integer> {
-        List<Model.Volunteer> findAll();
 
-        List<Object> findAll(int id);
 
-        boolean existsById(int id);
+//package com.seerat.feedforward;
 
-        Model.Volunteer save(Model.Volunteer volunteer);
+// import java.util.List;
+// import org.springframework.stereotype.Repository;
 
-        void deleteById(int id);
-    }
+// public class Repository {
+//     @org.springframework.stereotype.Repository
+//     public  interface VolunteerRepository extends MongoRepository<Model.Volunteer, Integer> {
+//         List<Model.Volunteer> findAll();
 
-    @org.springframework.stereotype.Repository
-    public interface ProviderRepository extends MongoRepository<Model.Provider, Integer> {
-        List<Model.Provider> findAll();
+//         Optional<Model.Volunteer> findAll(int id);
 
-        List<Object> findById(int id);
+//         boolean existsById(int id);
 
-        boolean existsById(int id);
+//         Model.Volunteer save(Model.Volunteer volunteer);
 
-        void deleteById(int id);
+//         void deleteById(int id);
+//     }
 
-        Model.Provider save(Model.Provider provider);
-    }
+//     @org.springframework.stereotype.Repository
+//     public interface ProviderRepository extends MongoRepository<Model.Provider, Integer> {
+//         List<Model.Provider> findAll();
 
-    @org.springframework.stereotype.Repository
-    public interface FoodItemRepository extends MongoRepository<Model.FoodItem, Integer> {
-        List<Model.FoodItem> findAll();
+//         List<Object> findById(int id);
 
-        List<Object> findById(int id);
+//         boolean existsById(int id);
 
-        boolean existsById(int id);
+//         void deleteById(int id);
 
-        void deleteById(int id);
+//         Model.Provider save(Model.Provider provider);
+//     }
 
-        Model.FoodItem save(Model.FoodItem foodItem);
-    }
-}
+//     @org.springframework.stereotype.Repository
+//     public interface FoodItemRepository extends MongoRepository<Model.FoodItem, Integer> {
+//         List<Model.FoodItem> findAll();
+
+//         List<Object> findById(int id);
+
+//         boolean existsById(int id);
+
+//         void deleteById(int id);
+
+//         Model.FoodItem save(Model.FoodItem foodItem);
+//     }
+// }
